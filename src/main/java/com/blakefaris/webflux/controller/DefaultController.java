@@ -1,4 +1,4 @@
-package com.blakefaris.webflux;
+package com.blakefaris.webflux.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -14,7 +14,7 @@ public class DefaultController {
 
     @GetMapping("/")
     public ResponseEntity<String> get() {
-        return new ResponseEntity<>("Did you mean /blocking or /nonblocking?", HttpStatus.OK);
+        return new ResponseEntity<>("Did you mean /blocking or /nonblocking?", HttpStatus.NOT_FOUND);
     }
 
     /**
